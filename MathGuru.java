@@ -52,4 +52,8 @@ public class MathGuru {
         }
         return n * (nfact(n - 1));
     }
+    
+    public static int nthpower(int n) {
+        return (int) Math.pow(2, n);
+    }
 }
