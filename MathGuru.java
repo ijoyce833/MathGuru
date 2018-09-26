@@ -25,7 +25,7 @@ public class MathGuru {
                     n = sc.nextInt();
                 }
                 if (calc == 1) {
-
+                    System.out.println(nthpower(n));
                 } else if (calc == 2) {
                     int result = nfact(n);
                     System.out.println(result);
